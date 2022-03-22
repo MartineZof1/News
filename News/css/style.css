@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html{height: 100%}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: #000000;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	display: block;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF0000; 
+}
+
+a, a:hover {
+	-webkit-transition: all.2s ease;
+	-moz-transition: all.2s ease;
+	-ms-transition: all.2s ease;
+	-o-transition: all.2s ease;
+	transition: all.2s ease;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Стили для header */
+
+header {
+	width: 97%;
+	float: left;
+	padding: 1.5%;
+	background-color: #DFDFDF;
+	border-bottom: 2px solid black;
+	margin-bottom: 50px;
+}
+
+header #logo {
+	width: 40%;
+	float: left;
+
+}
+
+header #logo a {
+	color: #000000;
+	font-size: 2em;
+	font-family: Bahnschrift SemiBold, sans-serif
+}
+
+header #logo span{
+	color: #FF0000;
+}
+
+header #menuHead {
+	width: 15%;
+	float: left;
+}
+
+header #menuHead div {
+	float: left;
+	font-size: 1.3em;
+}
+
+header #regAuth {
+	width: 26%;
+	float: right;
+	text-align: right;
+	font-size: 1.3em;
+}
+
+header #regAuth div {
+	padding: 5px;
+	background-color: #008BFF;
+	float: right;
+	border-radius: 7px;
+	color: #ffff;
+}
+
+header #regAuth div:hover {
+	background-color: #008BFF;
+	color: #000000;
+}
+
+/* Стили для всего */
+
+#wrapper {
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+}
+
+
+/* Стили для левой колонки */
+
+#wrapper #leftCol {
+	width: 70%;
+	margin-right: 10%;
+	float: left;
+}
+
+#wrapper #leftCol #bigArticle {
+	width: 78%;
+	margin-left: 10%;
+	background-color: #f6f6f6;
+	padding: 1%;
+}
+
+#wrapper #leftCol #bigArticle img, #wrapper #leftCol .article img {
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#wrapper #leftCol #bigArticle h2, #wrapper #leftCol .article h2 {
+	font-size: 1.3em;
+	color: #000000;
+	margin-bottom: 10px;
+	font-family: Lucida Sans, sans-serif;
+}
+
+#wrapper #leftCol #bigArticle p, #wrapper #leftCol .article p {
+	width: 90%;
+	margin-left: 5%;
+	font-family: Lucida Sans, sans-serif;
+}
+
+#wrapper #leftCol #bigArticle div.more, #wrapper #leftCol .article div.more {
+	padding: 5px;
+	float: left;
+	border-radius: 5px;
+	background-color: #898989;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 10px;
+	width: 10%;
+}
+
+#wrapper #leftCol #bigArticle div.more:hover, #wrapper #leftCol .article div.more:hover {
+	background-color: #a2a2a2;
+}
+
+#wrapper #leftCol .article {
+	width: 40%;
+	margin-left: 5%;
+	background-color: #f6f6f6;
+	padding: 1%;
+	float: left;
+}
+
+#wrapper #leftCol .article div.more {
+	width: 20%;
+}
+
+
+/* Стили для О нас */
+
+#wrapper #leftCol #about_us {
+	width: 79%;
+	margin-left: 10%;
+	border: 2px solid black;
+	background-color: #f4f4f4;
+	padding: 0.5%;
+	font-family: Lucida Sans, sans-serif;
+}
+
+
+/* Стили для Обратная связь */
+
+#wrapper #leftCol input {
+	width: 40%;
+	margin-left: 30%;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid #717171;
+	color: #000000;
+	padding: 6px;
+	margin-bottom: 25px;
+	font-size: 1.2em;
+}
+
+#wrapper #leftCol input:focus {
+	border: 2px solid #272727;
+}
+
+#wrapper #leftCol input#done {
+	background-color: #717171;
+	color: #ffffff;
+	border-radius: 5px;
+	border: 2px solid #717171;
+}
+
+#wrapper #leftCol input#done:hover {
+	background-color: #404040;
+	cursor: pointer;
+	border: 2px solid #404040;
+}
+
+#wrapper #leftCol textarea {
+	width: 50%;
+	height: 150px;
+	margin-left: 25%;
+	float: left;
+	border-radius: 5px;
+	border: 2px solid #717171;
+	color: #000000;
+	padding: 5px;
+	margin-bottom: 15px;
+	font-size: 1.5em;
+	resize: none;
+}
+
+#wrapper #leftCol #messageShow {
+	font-size: 1.1em;
+	float: left;
+	color: red;
+	width: 100%;
+	text-align: center;
+}
+
+#wrapper #leftCol textarea:focus{
+	border: 2px solid #404040;
+}
+
+/* Стили для правой колонки */
+
+#wrapper #rightCol { 
+	width: 20%;
+	float: left;
+}
+
+#wrapper #rightCol .banner {
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+	border: 2px solid black;
+	box-sizing: border-box;
+
+}
+
+
+/* Стили для footer */
+
+footer {
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #ffffff;
+	border-top: 2px solid black;
+	margin-top: 10px;
+}
+
+footer #social {
+	float: left;
+	width: 50%;
+}
+
+footer #social img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 5px;
+}
+
+footer #rights {
+	float: right;
+	width: 50%;
+	text-align: right;
+	font-size: 1.2em;
+}
