@@ -1,3 +1,7 @@
+<?php
+	require_once "blocks/head.php";
+?>
+
 <footer>
 	<div id="social">
 		<a href="https://www.slovoboga.org" title="Наш сайт" target="_blank">

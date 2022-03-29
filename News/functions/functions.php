@@ -6,12 +6,14 @@
 		connectDB();
 		if($id)
 			$where = "WHERE `id` = ".$id;
+		else 
+			$where = null;
 		$result = $mysqli->query("SELECT * FROM `news` $where ORDER BY `id` DESC LIMIT $limit");
 		closeDB();
 		if(!$id)
 			return resultToArray ($result);
 		else
-			return $result->fetch_assoc($id);
+			return $result->fetch_assoc();
 	}
 
 

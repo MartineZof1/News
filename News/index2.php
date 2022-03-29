@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<title>Главная</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<?php
 		require_once "functions/functions.php";
-		$title = "Главная";
-		require_once "blocks/head.php";
+		$title = "Новости";
 		$news = getNews (3, "");
 		
 	?>
 </head>
 <body>
-	<?php require_once "blocks/header.php"?>
+	<?php require_once "blocks/header2.php"?>
 	<div id="wrapper">
 		<div id="leftCol">
 

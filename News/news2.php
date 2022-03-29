@@ -5,12 +5,12 @@
 		require_once "functions/functions.php";
 		$title = "Главная";
 		require_once "blocks/head.php";
-		$news = getNews (3, "");
+		$news = getNews (20, "");
 		
 	?>
 </head>
 <body>
-	<?php require_once "blocks/header.php"?>
+	<?php require_once "blocks/header2.php"?>
 	<div id="wrapper">
 		<div id="leftCol">
 

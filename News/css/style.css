@@ -74,7 +74,7 @@ header #logo span{
 }
 
 header #menuHead {
-	width: 15%;
+	width: 30%;
 	float: left;
 }
 
@@ -87,7 +87,7 @@ header #regAuth {
 	width: 26%;
 	float: right;
 	text-align: right;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 header #regAuth div {
@@ -96,6 +96,12 @@ header #regAuth div {
 	float: right;
 	border-radius: 7px;
 	color: #ffff;
+}
+
+header p {
+	padding: 5px;
+	float: right;
+	color: #000000;
 }
 
 header #regAuth div:hover {
@@ -167,6 +173,7 @@ header #regAuth div:hover {
 	background-color: #f6f6f6;
 	padding: 1%;
 	float: left;
+
 }
 
 #wrapper #leftCol .article div.more {
@@ -289,3 +296,4 @@ footer #rights {
 	text-align: right;
 	font-size: 1.2em;
 }
+
